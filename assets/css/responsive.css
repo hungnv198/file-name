@@ -1,0 +1,88 @@
+/* PC */
+@media(min-width:1024px){
+
+}
+/* Tablet && Mobile */
+@media (max-width:1023px){
+    .btn{
+        padding: 16px;
+    }
+    #contact .form-control{
+        padding: 16px;
+    }
+    #footer .social-list{
+        font-size: 32px;
+    }
+    #footer .social-list a{
+        margin: 0 8px;
+    }
+    #nav .subnav a{
+        /* color: #fff; */
+        padding: 5px 12px;
+    }
+    #contact .contact-info{
+        line-height: 2.6;
+    }
+}
+/* Tablet */
+@media (max-width:1023px) and (min-width:740px){
+
+}
+
+/* Mobile */
+@media screen and (max-width:739px){
+    #nav{
+        display: block;
+    }
+    #nav>li{
+        display: block;
+    }
+    /* fix list đầu tiên của menu hiển thị inline-block */
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: inherit;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 42px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    #content .content-section{
+        padding-bottom: 64px;
+    }
+    #tour .s-col-full{
+        width: 100%;
+    }
+    #contact .s-col-full{
+        width: 100%;
+    }
+    #contact .contact-form{
+        margin-top: 16px;
+    }
+    #contact .s-mt-8{
+        margin-top: 8px;
+    }
+    .s-full-width-button{
+        width: 100%;
+    }
+    
+    
+}
