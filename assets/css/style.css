@@ -178,7 +178,11 @@ html{
     /* Dựa vào kích thước gốc để hiển thị tỉ lệ ảnh */
     padding-top: 50%;
     /* thêm 50% là chiều ngang của chính nó */
+<<<<<<< HEAD
     background: url('/assets/img/slider/la.jpg') top center / cover no-repeat;
+=======
+    background: url('./assets/img/slider/la.jpg') top center / cover no-repeat;
+>>>>>>> c5ef22cf9f0597b86f4c955bf3a5f88f3cf71c4c
 }
 #slider .text-content{
     position: absolute;
