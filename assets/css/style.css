@@ -172,13 +172,13 @@ html{
     color: #000;
 }
 /* ------------begin slider------------ */
-#slider{
+.background-slider{
     position: relative;
     margin-top: 46px;
     /* Dựa vào kích thước gốc để hiển thị tỉ lệ ảnh */
     padding-top: 50%;
     /* thêm 50% là chiều ngang của chính nó */
-    background: url(../assets/img/slider/la.jpg) top center / cover no-repeat;
+    background: url('/assets/img/slider/la.jpg') top center / cover no-repeat;
 }
 #slider .text-content{
     position: absolute;
